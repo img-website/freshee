@@ -2365,6 +2365,21 @@ video {
   padding-bottom: 2rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -2624,6 +2639,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-theme6 {
+  --tw-text-opacity: 1;
+  color: rgb(96 150 71 / var(--tw-text-opacity, 1));
 }
 
 .underline {
@@ -3342,6 +3362,11 @@ video {
   .md\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .md\:text-2xl {
