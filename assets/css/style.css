@@ -675,10 +675,6 @@ video {
   top: 0.25rem;
 }
 
-.top-2 {
-  top: 0.5rem;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -756,6 +752,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-3 {
   margin-top: 0.75rem;
 }
@@ -770,10 +770,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-20 {
-  margin-top: 5rem;
 }
 
 .box-border {
@@ -895,8 +891,16 @@ video {
   height: 100%;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-12 {
   height: 3rem;
+}
+
+.h-20 {
+  height: 5rem;
 }
 
 .h-\[246px\] {
@@ -2048,6 +2052,10 @@ video {
   background-image: url('../../assets/img/bigbanner.png');
 }
 
+.bg-\[url\(\'\.\.\/\.\.\/assets\/img\/footerFrame\.png\'\)\] {
+  background-image: url('../../assets/img/footerFrame.png');
+}
+
 .bg-\[url\(\'\.\.\/\.\.\/assets\/img\/veg4\.png\'\)\] {
   background-image: url('../../assets/img/veg4.png');
 }
@@ -2062,10 +2070,6 @@ video {
 
 .bg-\[url\(\'\.\.\/\.\.\/assets\/img\/vegi3\.png\'\)\] {
   background-image: url('../../assets/img/vegi3.png');
-}
-
-.bg-\[url\(\'\.\.\/\.\.\/assets\/img\/footerFrame\.png\'\)\] {
-  background-image: url('../../assets/img/footerFrame.png');
 }
 
 .decoration-slice {
