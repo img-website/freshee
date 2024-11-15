@@ -24,9 +24,234 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Freshee</title>
   <link href="./assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 <body>
  <!-- header start -->
+  <header>
+    <div class="w-full bg-theme1 py-2">
+      <div class="flex items-center justify-around max-w-7xl mx-auto lg:px-8 px-6 w-full">
+        <ul class="flex items-center gap-[18px]">
+          <li>
+            <a href="javascript:;" class="flex items-center justify-center size-6"><img src="./assets/img/Gmail.png" alt="gmail" class="size-full"></a>
+          </li>
+          <li>
+            <a href="javascript:;" class="flex items-center justify-center size-6"><img src="./assets/img/Facebook.png" alt="Facebook" class="size-full"></a>
+          </li>
+          <li>
+            <a href="javascript:;" class="flex items-center justify-center size-6"><img src="./assets/img/TwitterX.png" alt="TwitterX" class="size-full"></a>
+          </li>
+          <li>
+            <a href="javascript:;" class="flex items-center justify-center size-6"><img src="./assets/img/Instagram.png" alt="Instagram" class="size-full"></a>
+          </li>
+        </ul>
+        <div class="relative">
+  
+          <div class="swiper headerSwiper w-[522px] overflow-hidden p">
+            <div class="swiper-wrapper !w-auto">
+              <div class="swiper-slide w-auto">
+                <div class="text-white text-[15px] text-center">Use Code - “CHIRSTMAS2024” to avail 20% OFF </div>
+              </div>
+              <div class="swiper-slide w-auto">
+                <div class="text-white text-[15px] text-center">Use Code - “CHIRSTMAS2024” to avail 20% OFF </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next after:!hidden">
+            <img src="./assets/img/swipernext.png" alt="next">
+          </div>
+          <div class="swiper-button-prev after:!hidden">
+            <img src="./assets/img/swiperprev.png" alt="prev">
+          </div>
+        </div>
+        <div class="text-white text-[15px] flex items-center gap-1 cursor-pointer">
+           <span>English</span> <span class="flex items-center"><img src="./assets/img/DownArrow.png" alt="downarrow"></span>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto lg:px-8 px-6 flex items-center justify-between py-5">
+      <div class="flex justify-center items-center gap-10">
+        <div>
+          <a href="javascript:;" class="size-[104px]"><img src="./assets/img/logo.png" alt="logo" class="size-full"></a>
+        </div>
+        <div class="border border-[#A39DA0] rounded-full bg-theme8 h-12 flex items-center gap-4 w-[585px] px-5">
+          <span><img src="./assets/img/Search.png" alt="search"></span>
+          <input type="text" class="h-full bg-transparent w-full focus:border-0 text-2xl text-theme9 focus:outline-none placeholder:text-2xl placeholder:text-theme9" placeholder="Search for..." >
+        </div>
+      </div>
+      <div class="flex items-center gap-10">
+        <div class="border border-[#A39DA0] rounded-full bg-theme8 h-12 flex items-center gap-3 px-3 text-xl text-theme9">
+          <span><img src="./assets/img/User.png" alt="user"></span> <span>Account</span>
+        </div>
+        <div class="border border-[#A39DA0] rounded-full bg-theme8 h-12 flex items-center gap-3 px-3 text-xl text-theme9">
+          <span><img src="./assets/img/ShoppingCart.png" alt="user"></span> <span>0.00 (0)</span>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto lg:px-8 px-6 flex items-center pb-5">
+      <ul class="flex items-center gap-14">
+        <li>
+          <a href="javascript:;" class="text-xl text-theme10 font-normal active [&.active]:font-semibold">Home</a>
+        </li>
+        <li>
+          <a href="javascript:;" class="text-xl text-theme10 font-normal [&.active]:font-semibold">Categories</a>
+        </li>
+        <li>
+          <a href="javascript:;" class="text-xl text-theme10 font-normal [&.active]:font-semibold">About us</a>
+        </li>
+        <li>
+          <a href="javascript:;" class="text-xl text-theme10 font-normal [&.active]:font-semibold">Recipes</a>
+        </li>
+        <li>
+          <a href="javascript:;" class="text-xl text-theme10 font-normal [&.active]:font-semibold">Blogs</a>
+        </li>
+        <li>
+          <a href="javascript:;" class="text-xl text-theme10 font-normal [&.active]:font-semibold">FAQs</a>
+        </li>
+        <li>
+          <a href="javascript:;" class="text-xl text-theme10 font-normal [&.active]:font-semibold">Wishlist</a>
+        </li>
+      </ul>
+    </div>
+  </header>
 <!-- header  end -->
+ <!-- home section  -->
+ <div class="h-[547px] overflow-hidden relative">
+  <div class="swiper heroSwiper h-full">
+    <div class="swiper-wrapper h-full">
+      <div class="swiper-slide h-full">
+        <div class='absolute z-10 inset-0'>
+          <img src="./assets/img/home.png" alt="banner" class='size-full object-cover' />
+        </div> 
+        <div class="max-w-6xl mx-auto lg:px-8 px-6 h-full flex items-center relative z-10">
+          <div class="bg-[#D9D9D98A] rounded-3xl p-[23px] w-auto ">
+            <div class="text-[35px] font-normal text-theme5">GET DELIVERIES IN MINUTES!!</div>
+            <div class="text-2xl text-theme11 mt-8">One step closer to your <br> Organic Healthy Life, with us!!</div>
+            <div class="text-[47px] text-theme11 font-semibold mt-5">Fresh<span class="text-theme3">ee</span></div>
+            <div class="text-theme10 text-[15px] ">Bringing Freshness at your Fingertips...</div>
+            <div class="flex items-center justify-center">
+              <button class="text-xl text-white mt-10 py-2.5 px-16 rounded-[15px] bg-[#65A648C2]">Explore Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide h-full">
+        <div class='absolute z-10 inset-0'>
+          <img src="./assets/img/home.png" alt="banner" class='size-full object-cover' />
+        </div> 
+        <div class="max-w-6xl mx-auto lg:px-8 px-6 h-full flex items-center relative z-10">
+          <div class="bg-[#D9D9D98A] rounded-3xl p-[23px] w-auto ">
+            <div class="text-[35px] font-normal text-theme5">GET DELIVERIES IN MINUTES!!</div>
+            <div class="text-2xl text-theme11 mt-8">One step closer to your <br> Organic Healthy Life, with us!!</div>
+            <div class="text-[47px] text-theme11 font-semibold mt-5">Fresh<span class="text-theme3">ee</span></div>
+            <div class="text-theme10 text-[15px] ">Bringing Freshness at your Fingertips...</div>
+            <div class="flex items-center justify-center">
+              <button class="text-xl text-white mt-10 py-2.5 px-16 rounded-[15px] bg-[#65A648C2]">Explore Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide h-full">
+        <div class='absolute z-10 inset-0'>
+          <img src="./assets/img/home.png" alt="banner" class='size-full object-cover' />
+        </div> 
+        <div class="max-w-6xl mx-auto lg:px-8 px-6 h-full flex items-center relative z-10">
+          <div class="bg-[#D9D9D98A] rounded-3xl p-[23px] w-auto ">
+            <div class="text-[35px] font-normal text-theme5">GET DELIVERIES IN MINUTES!!</div>
+            <div class="text-2xl text-theme11 mt-8">One step closer to your <br> Organic Healthy Life, with us!!</div>
+            <div class="text-[47px] text-theme11 font-semibold mt-5">Fresh<span class="text-theme3">ee</span></div>
+            <div class="text-theme10 text-[15px] ">Bringing Freshness at your Fingertips...</div>
+            <div class="flex items-center justify-center">
+              <button class="text-xl text-white mt-10 py-2.5 px-16 rounded-[15px] bg-[#65A648C2]">Explore Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide h-full">
+        <div class='absolute z-10 inset-0'>
+          <img src="./assets/img/home.png" alt="banner" class='size-full object-cover' />
+        </div> 
+        <div class="max-w-6xl mx-auto lg:px-8 px-6 h-full flex items-center relative z-10">
+          <div class="bg-[#D9D9D98A] rounded-3xl p-[23px] w-auto ">
+            <div class="text-[35px] font-normal text-theme5">GET DELIVERIES IN MINUTES!!</div>
+            <div class="text-2xl text-theme11 mt-8">One step closer to your <br> Organic Healthy Life, with us!!</div>
+            <div class="text-[47px] text-theme11 font-semibold mt-5">Fresh<span class="text-theme3">ee</span></div>
+            <div class="text-theme10 text-[15px] ">Bringing Freshness at your Fingertips...</div>
+            <div class="flex items-center justify-center">
+              <button class="text-xl text-white mt-10 py-2.5 px-16 rounded-[15px] bg-[#65A648C2]">Explore Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination [&_.swiper-pagination-bullet]:size-[15px] [&_.swiper-pagination-bullet]:!bg-theme9 [&_.swiper-pagination-bullet-active]:!bg-theme9/80"></div>
+  </div>
+  
+  
+</div>
+  <!-- home section end  -->
+  <!-- about section  -->
+   <section class="relative py-12">
+    <div class='absolute z-10 inset-0'>
+      <img src="./assets/img/about.png" alt="banner" class='size-full object-cover' />
+    </div> 
+    <div class="max-w-7xl mx-auto lg:px-8 px-6 relative z-10">
+      <div class="flex items-center justify-around">
+        <div class="text-center flex items-center justify-center flex-col w-4/12 p-10">
+          <div class="size-28"><img src="./assets/img/health.png" alt="" class="size-full"></div>
+          <div class="text-base text-theme10 mt-4 font-medium">FAMILY HEALTHY</div>
+          <div class="text-[15px] text-theme10 mt-5">“At Freshee, every product is certified 100% organic, delivering health and sustainability straight to your table.”</div>
+        </div>
+        
+        <div class="text-center flex items-center justify-center flex-col w-4/12 p-10">
+          <div class="size-28"><img src="./assets/img/health.png" alt="" class="size-full"></div>
+          <div class="text-base text-theme10 mt-4 font-medium">FAMILY HEALTHY</div>
+          <div class="text-[15px] text-theme10 mt-5">“At Freshee, every product is certified 100% organic, delivering health and sustainability straight to your table.”</div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between">
+        <div class="text-center flex items-center justify-center flex-col w-4/12 p-10">
+          <div class="size-28"><img src="./assets/img/health.png" alt="" class="size-full"></div>
+          <div class="text-base text-theme10 mt-4 font-medium">FAMILY HEALTHY</div>
+          <div class="text-[15px] text-theme10 mt-5">“At Freshee, every product is certified 100% organic, delivering health and sustainability straight to your table.”</div>
+        </div>
+        <div class="text-center flex items-center justify-center flex-col w-4/12 p-10 !-mt-40">
+          <div class="w-[229px] h-[246px]"><img src="./assets/img/aboutlogo.png" alt="" class="size-full"></div>
+          <div class="flex items-center text-[35px] font-semibold text-[#8B5252]"><span><img src="./assets/img/loction.png" alt="loction"></span> <span>Jabalpur, MP</span></div>
+        </div>
+        <div class="text-center flex items-center justify-center flex-col w-4/12 p-10">
+          <div class="size-28"><img src="./assets/img/health.png" alt="" class="size-full"></div>
+          <div class="text-base text-theme10 mt-4 font-medium">FAMILY HEALTHY</div>
+          <div class="text-[15px] text-theme10 mt-5">“At Freshee, every product is certified 100% organic, delivering health and sustainability straight to your table.”</div>
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- about section end  -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- header swiper -->
+<script>
+  var swiper = new Swiper(".headerSwiper", {
+    loop:true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+<!-- home swiper -->
+<script>
+  var swiper = new Swiper(".heroSwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+
 </body>
 </html>
