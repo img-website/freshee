@@ -1884,6 +1884,11 @@ video {
   border-color: rgb(0 0 0 / 0.1);
 }
 
+.divide-black > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-divide-opacity, 1));
+}
+
 .place-self-auto {
   place-self: auto;
 }
@@ -2396,6 +2401,11 @@ video {
 
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
+}
+
+.bg-slate-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[url\(\'\.\.\/\.\.\/assets\/img\/bigbanner\.png\'\)\] {
@@ -3445,6 +3455,10 @@ video {
   forced-color-adjust: none;
 }
 
+.\[filter\:invert\(1\)_brightness\(5\.5\)\] {
+  filter: invert(1) brightness(5.5);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -3969,6 +3983,11 @@ video {
   .md\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
+  }
+
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .md\:pt-16 {
