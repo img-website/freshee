@@ -680,6 +680,22 @@ video {
   top: 0px;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
+.bottom-1\/2 {
+  bottom: 50%;
+}
+
+.bottom-20 {
+  bottom: 5rem;
+}
+
+.left-0 {
+  left: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -835,6 +851,10 @@ video {
   margin-top: 18px;
 }
 
+.mt-auto {
+  margin-top: auto;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -968,6 +988,11 @@ video {
   height: 100%;
 }
 
+.size-\[100px\] {
+  width: 100px;
+  height: 100px;
+}
+
 .h-10 {
   height: 2.5rem;
 }
@@ -1034,6 +1059,10 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[200px\] {
+  height: 200px;
 }
 
 .\!w-auto {
@@ -1106,6 +1135,23 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[120px\] {
+  width: 120px;
+}
+
+.w-\[180px\] {
+  width: 180px;
+}
+
+.w-\[200px\] {
+  width: 200px;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .max-w-2xl {
@@ -1719,6 +1765,10 @@ video {
   gap: 74px;
 }
 
+.gap-20 {
+  gap: 5rem;
+}
+
 .gap-x-16 {
   -moz-column-gap: 4rem;
        column-gap: 4rem;
@@ -2253,6 +2303,10 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
+.border-black\/50 {
+  border-color: rgb(0 0 0 / 0.5);
+}
+
 .bg-\[\#1A1C29A8\] {
   background-color: #1A1C29A8;
 }
@@ -2736,6 +2790,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[23px\] {
+  font-size: 23px;
 }
 
 .font-bold {
@@ -3572,6 +3630,14 @@ video {
   .max-lg\:gap-10 {
     gap: 2.5rem;
   }
+
+  .max-lg\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .max-lg\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
 }
 
 @media not all and (min-width: 768px) {
@@ -3901,6 +3967,10 @@ video {
     margin-top: 2rem;
   }
 
+  .lg\:mt-auto {
+    margin-top: auto;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -3928,8 +3998,17 @@ video {
     height: 54px;
   }
 
+  .lg\:size-full {
+    width: 100%;
+    height: 100%;
+  }
+
   .lg\:h-\[246px\] {
     height: 246px;
+  }
+
+  .lg\:h-full {
+    height: 100%;
   }
 
   .lg\:w-1\/2 {
@@ -3968,6 +4047,10 @@ video {
     gap: 3.5rem;
   }
 
+  .lg\:border-b {
+    border-bottom-width: 1px;
+  }
+
   .lg\:p-10 {
     padding: 2.5rem;
   }
@@ -4003,6 +4086,14 @@ video {
 
   .lg\:ps-52 {
     padding-inline-start: 13rem;
+  }
+
+  .lg\:pt-16 {
+    padding-top: 4rem;
+  }
+
+  .lg\:pt-20 {
+    padding-top: 5rem;
   }
 
   .lg\:text-4xl {
