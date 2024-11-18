@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/fabicon/apple-icon-57x57.png">
@@ -11,7 +12,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/fabicon/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/fabicon/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/fabicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="./assets/img/fabicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/img/fabicon/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/fabicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/fabicon/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/fabicon/favicon-16x16.png">
@@ -27,361 +28,290 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 </head>
+
 <body>
- <!-- header start -->
-  <!-- <header>
-    <div class="w-full bg-theme1 py-2 max-lg:hidden">
-      <div class="flex items-center justify-around max-w-7xl mx-auto lg:px-8 px-6 w-full">
-        <ul class="flex items-center gap-[18px]">
-          <li>
-            <a href="javascript:;" class="flex items-center justify-center size-6"><img src="./assets/img/Gmail.png" alt="gmail" class="size-full"></a>
-          </li>
-          <li>
-            <a href="javascript:;" class="flex items-center justify-center size-6"><img src="./assets/img/Facebook.png" alt="Facebook" class="size-full"></a>
-          </li>
-          <li>
-            <a href="javascript:;" class="flex items-center justify-center size-6"><img src="./assets/img/TwitterX.png" alt="TwitterX" class="size-full"></a>
-          </li>
-          <li>
-            <a href="javascript:;" class="flex items-center justify-center size-6"><img src="./assets/img/Instagram.png" alt="Instagram" class="size-full"></a>
-          </li>
+  <header class="bg-white shadow">
+    <div class="max-w-7xl mx-auto max-md:px-6 px-8 md:py-4 py-2">
+      <div class="flex justify-between items-center md:gap-12 md:md:gap-32">
+        <a href="./index.html" class="lg:size-20 size-12 flex flex-shrink-0 *:size-full *:object-contain">
+          <img src="./assets/img/logo.png" alt="">
+        </a>
+        <ul class="flex justify-between gap-4 *:whitespace-nowrap items-center grow max-md:hidden">
+          <li><a href="./index.html" class="text-theme10 lg:text-xl text-base ">Home</a></li>
+          <li><a href="./about-us.html" class="text-theme10 lg:text-xl text-base">About Us</a></li>
+          <li><a href="./privacy-policy.html"
+              class="text-theme10 lg:text-xl text-base active [&.active]:font-semibold">Privacy & Policy</a></li>
+          <li><a href="./terms-conditions.html" class="text-theme10 lg:text-xl text-base">Terms & Conditions</a></li>
         </ul>
-        <div class="relative">
-          <div class="swiper headerSwiper w-[522px] overflow-hidden p">
-            <div class="swiper-wrapper !w-auto">
-              <div class="swiper-slide w-auto">
-                <div class="text-white text-[15px] text-center">Use Code - “CHIRSTMAS2024” to avail 20% OFF </div>
-              </div>
-              <div class="swiper-slide w-auto">
-                <div class="text-white text-[15px] text-center">Use Code - “CHIRSTMAS2024” to avail 20% OFF </div>
-              </div>
+        <div class="flex items-center md:gap-2">
+          <div class="lg:size-[54px] size-[30px]  *:size-full hidden md:flex">
+            <img src="./assets/img/user.png" alt="">
+          </div>
+          <div class="flex md:hidden">
+            <label for="sideToggle" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5">
+              <span class="sr-only">Open menu</span>
+              <svg class="text-black" stroke="currentColor" fill="black" stroke-width="0" viewBox="0 0 512 512"
+                height="25px" width="25px" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"></path>
+              </svg>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- home section  -->
+  <div class="mx-auto max-w-7xl w-full px-6 lg:px-8 py-10">
+    <div class="md:text-[40px] pb-10 text-center text-3xl font-semibold md:leading-[52px] text-theme10">Refund and
+      Cancellation Policy for Grocery Orders</div>
+
+    <div class="flex flex-wrap md:flex-nowrap gap-5 lg:gap-10">
+      <div class="w-full md:w-1/2 border border-slate-400">
+        <div class="px-5 sm:px-10 py-2 sm:py-5">
+          <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
+            Order Cancellation:
+          </div>
+          <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
+            <span class="block ">Before Order Processing: Customers can cancel their orders anytime before the order has
+              been processed by our team. Once the order is processed, it cannot be canceled.</span>
+            <span class="block ">After Order Processing: If the order has already been processed and is out for
+              delivery, cancellation is not possible. However, customers can refuse to accept the delivery if they have
+              a genuine reason, and our team will review it.</span>
+            <span class="block">
+              How to Cancel: Customers can cancel their orders through the app or by contacting customer support with
+              their order ID.
+            </span>
+          </div>
+        </div>
+        <div class="px-5 sm:px-10 py-2 sm:py-5">
+          <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
+            Refund Policy:
+          </div>
+          <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
+            <span class=" block">
+              Eligible Refund Scenarios:
+            </span>
+            <span class="block">
+              If an incorrect product is delivered (different from what was ordered).
+            </span>
+            <span class="block ">
+              If the product is damaged or tampered with.
+            </span>
+            <span class="block">
+              If the quality of the product does not meet expectations (e.g., expired or stale groceries).
+              Refund Request Process: Customers must raise a refund request within 24 hours of receiving the order.
+              Refunds will not be processed after this period unless exceptional circumstances are involved.
+              Refund Processing Time: Refunds will be initiated within 2-5 business days after the approval of the
+              request. Depending on the payment method, it may take up to 7-10 days for the amount to reflect in the
+              original payment source..
+            </span>
+            <span class="block pt-3">
+              Refund Methods:
+            </span>
+            <span class="block">
+              For online payments, the amount will be credited back to the original payment method.
+            </span>
+            <div class="">For cash on delivery (COD) orders, refunds will be issued via bank transfer or store credit.
             </div>
           </div>
-          <div class="swiper-button-next after:!hidden">
-            <img src="./assets/img/swipernext.png" alt="next">
+        </div>
+        <div class="px-5 sm:px-10 py-2 sm:py-5">
+          <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
+            Replacement Policy:
           </div>
-          <div class="swiper-button-prev after:!hidden">
-            <img src="./assets/img/swiperprev.png" alt="prev">
+          <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
+            <span class="">
+              Customers can opt for a replacement instead of a refund for eligible scenarios (wrong or damaged
+              products).
+              Replacement requests must be made within 24 hours of receiving the product.
+            </span>
           </div>
         </div>
-        <div class="text-white text-[15px] flex items-center gap-1 cursor-pointer">
-           <span>English</span> <span class="flex items-center"><img src="./assets/img/DownArrow.png" alt="downarrow"></span>
-        </div>
-      </div>
-    </div>
-    <div class="max-w-7xl mx-auto lg:px-8 px-6 flex items-center justify-between md:py-5 py-3">
-      <div class="flex justify-center items-center lg:gap-10 gap-7">
-        <div>
-          <a href="javascript:;" class="lg:size-[104px] sm:size-20 size-16 flex items-center"><img src="./assets/img/logo.png" alt="logo" class="size-full"></a>
-        </div>
-        <div class="max-md:hidden border border-[#A39DA0] rounded-full bg-theme8 h-12 flex items-center gap-4 xl:w-[585px] lg:w-[400px] px-5">
-          <span><img src="./assets/img/Search.png" alt="search"></span>
-          <input type="text" class="h-full bg-transparent w-full focus:border-0 text-2xl text-theme9 focus:outline-none placeholder:text-2xl placeholder:text-theme9" placeholder="Search for..." >
-        </div>
-      </div>
-      <div class="flex items-center lg:gap-10 sm:gap-7 gap-4">
-        <div class="border hidden max-md:flex border-[#A39DA0] rounded-full bg-theme8 h-12 max-md:size-10 items-center gap-4 px-2">
-          <span class="flex items-center justify-center flex-shrink-0"><img src="./assets/img/Search.png" alt="search"></span>
-        </div>
-        <div class="border border-[#A39DA0] rounded-full bg-theme8  max-md:size-10 h-12 flex items-center gap-3 md:px-3 px-2 text-xl text-theme9">
-          <span class="flex items-center justify-center flex-shrink-0"><img src="./assets/img/User.png" alt="user"></span> <span class="max-lg:hidden">Account</span>
-        </div>
-        <div class="border border-[#A39DA0] rounded-full bg-theme8  max-md:size-10 h-12 flex items-center gap-3 md:px-3 px-2 text-xl text-theme9">
-          <span class="flex items-center justify-center flex-shrink-0"><img src="./assets/img/ShoppingCart.png" alt="user"></span> <span class="max-lg:hidden">0.00 (0)</span>
-        </div>
-        <div class="flex md:hidden">
-          <label for="sideToggle" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5">
-              <span class="sr-only">Open menu</span>
-              <svg class="text-black" stroke="currentColor" fill="black" stroke-width="0" viewBox="0 0 512 512" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"></path></svg>
-          </label>
-      </div>
-      </div>
-    </div>
-    <div class="max-w-7xl mx-auto lg:px-8 px-6 flex items-center pb-5 max-md:hidden">
-      <ul class="flex items-center lg:gap-14 gap-10">
-        <li>
-          <a href="javascript:;" class="lg:text-xl text-lg text-theme10 font-normal active [&.active]:font-semibold">Home</a>
-        </li>
-        <li>
-          <a href="javascript:;" class="lg:text-xl text-lg text-theme10 font-normal [&.active]:font-semibold">Categories</a>
-        </li>
-        <li>
-          <a href="javascript:;" class="lg:text-xl text-lg text-theme10 font-normal [&.active]:font-semibold">About us</a>
-        </li>
-        <li>
-          <a href="javascript:;" class="lg:text-xl text-lg text-theme10 font-normal [&.active]:font-semibold">Recipes</a>
-        </li>
-        <li>
-          <a href="javascript:;" class="lg:text-xl text-lg text-theme10 font-normal [&.active]:font-semibold">Blogs</a>
-        </li>
-        <li>
-          <a href="javascript:;" class="lg:text-xl text-lg text-theme10 font-normal [&.active]:font-semibold">FAQs</a>
-        </li>
-        <li>
-          <a href="javascript:;" class="lg:text-xl text-lg text-theme10 font-normal [&.active]:font-semibold">Wishlist</a>
-        </li>
-      </ul>
-    </div>
-  </header> -->
-<!-- header  end -->
-<header class="bg-white shadow">
-  <div class="max-w-7xl mx-auto max-md:px-6 px-8 md:py-4 py-2">
-    <div class="flex justify-between items-center md:gap-12 md:md:gap-32">
-      <a href="./index.html" class="lg:size-20 size-12 flex flex-shrink-0 *:size-full *:object-contain">
-        <img src="./assets/img/logo.png" alt="">
-      </a>
-      <ul
-        class="flex justify-between gap-4 *:whitespace-nowrap items-center grow max-md:hidden">
-        <li><a href="./index.html" class="text-theme10 lg:text-xl text-base ">Home</a></li>
-        <li><a href="./about-us.html" class="text-theme10 lg:text-xl text-base">About Us</a></li>
-        <li><a href="./privacy-policy.html" class="text-theme10 lg:text-xl text-base active [&.active]:font-semibold">Privacy & Policy</a></li>
-        <li><a href="./terms-conditions.html" class="text-theme10 lg:text-xl text-base">Terms & Conditions</a></li>
-      </ul>
-      <div class="flex items-center md:gap-2">
-        <div class="lg:size-[54px] size-[30px]  *:size-full hidden md:flex">
-          <img src="./assets/img/user.png" alt="">
-        </div>
-        <div class="flex md:hidden">
-          <label for="sideToggle" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5">
-              <span class="sr-only">Open menu</span>
-              <svg class="text-black" stroke="currentColor" fill="black" stroke-width="0" viewBox="0 0 512 512" height="25px" width="25px" xmlns="http://www.w3.org/2000/svg"><path d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"></path></svg>
-          </label>
-      </div>
-      </div>
-    </div>
-  </div>
-</header>
- <!-- home section  -->
- <div class="mx-auto max-w-7xl w-full px-6 lg:px-8 py-10">
-  <div class="md:text-[40px] pb-10 text-center text-3xl font-semibold md:leading-[52px] text-theme10">Refund and Cancellation Policy for Grocery Orders</div>
 
-  <div class="flex flex-wrap md:flex-nowrap gap-5 lg:gap-10">
-<div class="w-full md:w-1/2 border border-slate-400">
- <div class="px-5 sm:px-10 py-2 sm:py-5">
-  <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
-    Order Cancellation:
-  </div>
-  <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
-  <span class="block ">Before Order Processing: Customers can cancel their orders anytime before the order has been processed by our team. Once the order is processed, it cannot be canceled.</span>  
-   <span class="block ">After Order Processing: If the order has already been processed and is out for delivery, cancellation is not possible. However, customers can refuse to accept the delivery if they have a genuine reason, and our team will review it.</span> 
-   <span class="block">
-    How to Cancel: Customers can cancel their orders through the app or by contacting customer support with their order ID.
-   </span>
-  </div>
- </div>
- <div class="px-5 sm:px-10 py-2 sm:py-5">
-  <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
-    Refund Policy:
-  </div>
-  <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
-    <span class=" block">
-      Eligible Refund Scenarios: 
-    </span>
-    <span class="block">
-      If an incorrect product is delivered (different from what was ordered).
-    </span>
-    <span class="block ">
-      If the product is damaged or tampered with.
-    </span>
-    <span class="block">
-      If the quality of the product does not meet expectations (e.g., expired or stale groceries).
-Refund Request Process: Customers must raise a refund request within 24 hours of receiving the order. Refunds will not be processed after this period unless exceptional circumstances are involved.
-Refund Processing Time: Refunds will be initiated within 2-5 business days after the approval of the request. Depending on the payment method, it may take up to 7-10 days for the amount to reflect in the original payment source..
-    </span>
-    <span class="block pt-3">
-      Refund Methods:
-    </span>
-    <span class="block">
-      For online payments, the amount will be credited back to the original payment method.
-    </span>
-    <div class="">For cash on delivery (COD) orders, refunds will be issued via bank transfer or store credit.</div>
-  </div>
- </div>
- <div class="px-5 sm:px-10 py-2 sm:py-5">
-  <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
-    Replacement Policy:
-  </div>
-  <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
-    <span class="">
-      Customers can opt for a replacement instead of a refund for eligible scenarios (wrong or damaged products).
-      Replacement requests must be made within 24 hours of receiving the product.
-    </span>
-  </div>
- </div>
 
- 
-</div>
-<div class="w-full md:w-1/2 border border-slate-400">
- 
-  <div class="px-5 sm:px-10 py-2 sm:py-5">
-    <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
-      Conditions for Non-Refundable Items:
-    </div>
-    <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
-      <div class="">Perishable items such as fruits, vegetables, dairy products, and bakery items are non-refundable unless delivered in poor condition or tampered.</div>
-      <div class="">Products that have been opened, used, or altered in any way are not eligible for returns or refunds.</div>
-   </div>
-  </div>
-  <div class="px-5 sm:px-10 py-2 sm:py-5">
-    <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
-      Dispute Resolution:
-    </div>
-    <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
-      If there is any disagreement regarding the refund or replacement, the customer can reach out to our support team for further assistance.
-      <div class="">We are committed to resolving all genuine issues in a fair and transparent manner.</div>
-    </div>
-   </div>
-  
-   <div class="px-5 sm:px-10 py-2 sm:py-5">
-    <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
-      Contact Us
-    </div>
-    <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
-      If you have any questions or concerns about this Privacy Policy or our practices, please contact us at:
-      <span class="block pt-3">
-        Email:<a href="adishainnovations2024@gmail.com" class="underline"> adishainnovations2024@gmail.com</a>
-      </span>
-      <span class="block">
-        Address: Sukh Sagar Valley, 34 lilly, Gwarighat Main Rd, Polipather, Jabalpur, Madhya Pradesh 482008
+      </div>
+      <div class="w-full md:w-1/2 border border-slate-400">
 
-      </span>
-      <span class="block">
-        Phone: <a href="tel:+8770516672" class="underline ">8770516672</a>
-      </span>
-      <div class="">Customer Support Hours: Monday to Saturday, 9 AM to 7 PM.</div>
-      <div class="">
-        By shopping with us, you agree to the terms mentioned above. We value customer satisfaction and strive to ensure a smooth and pleasant shopping experience.
+        <div class="px-5 sm:px-10 py-2 sm:py-5">
+          <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
+            Conditions for Non-Refundable Items:
+          </div>
+          <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
+            <div class="">Perishable items such as fruits, vegetables, dairy products, and bakery items are
+              non-refundable unless delivered in poor condition or tampered.</div>
+            <div class="">Products that have been opened, used, or altered in any way are not eligible for returns or
+              refunds.</div>
+          </div>
+        </div>
+        <div class="px-5 sm:px-10 py-2 sm:py-5">
+          <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
+            Dispute Resolution:
+          </div>
+          <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
+            If there is any disagreement regarding the refund or replacement, the customer can reach out to our support
+            team for further assistance.
+            <div class="">We are committed to resolving all genuine issues in a fair and transparent manner.</div>
+          </div>
+        </div>
+
+        <div class="px-5 sm:px-10 py-2 sm:py-5">
+          <div class="md:text-2xl text-xl max-sm:mt-3 font-semibold text-theme10 leading-[31px]">
+            Contact Us
+          </div>
+          <div class="sm:text-base text-sm leading-[21px] pt-3 text-slate-700">
+            If you have any questions or concerns about this Privacy Policy or our practices, please contact us at:
+            <span class="block pt-3">
+              Email:<a href="adishainnovations2024@gmail.com" class="underline"> adishainnovations2024@gmail.com</a>
+            </span>
+            <span class="block">
+              Address: Sukh Sagar Valley, 34 lilly, Gwarighat Main Rd, Polipather, Jabalpur, Madhya Pradesh 482008
+
+            </span>
+            <span class="block">
+              Phone: <a href="tel:+8770516672" class="underline ">8770516672</a>
+            </span>
+            <div class="">Customer Support Hours: Monday to Saturday, 9 AM to 7 PM.</div>
+            <div class="">
+              By shopping with us, you agree to the terms mentioned above. We value customer satisfaction and strive to
+              ensure a smooth and pleasant shopping experience.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-  </div>
   </div>
   <!-- home section end  -->
 
 
-       <!--Footer conatct us starts-->
-       <footer class="bg-[#6D3050] py-8  lg:py-16 flex flex-wrap  gap-y-5  bg-[url('../../assets/img/footerFrame.png')] bg-no-repeat bg-cover bg-center relative">
-        <div class="max-w-7xl mx-auto lg:px-8 px-6 flex flex-wrap w-full">
-    
-          <div class="w-full sm:w-1/2 lg:w-1/3">
-            <h3 class="text-white text-2xl font-bold">MAIN MENU </h3>
-            <ul class=" flex flex-col gap-2 py-5">
-              <li class="text-white "><a href="#"></a>HOME</li>
-              <li class="text-white"><a href="#">SERVICES</a> </li>
-              <li class="text-white"> <a href="#">SOLUTIONS</a></li>
-              <li class="text-white"> <a href="#">BLOG</a></li>
-              <li class="text-white"> <a href="#">ABOUT US</a></li>
-              <li class="text-white"> <a href="#">CONTACT US</a></li>
-      
-            </ul>
-      
-          </div>
-      
-          <div class="w-full sm:w-1/2 lg:w-1/3">
-            <h1 class="text-white text-2xl font-bold">FOOTER MENU </h1>
-            <ul class="flex flex-col gap-2 py-5 ">
-              <li class="text-white text-sm transition-all duration-300"><a href="">SEARCH</a>
-              </li>
-              <li class="text-white text-sm transition-all duration-300"><a href="">RETURNS & EXCHANGES</a>
-              </li>
-              <li class="text-white text-sm transition-all duration-300"><a href="">SHIPPING POLICY</a> </li>
-              <li class="text-white"> <a href="#">ABOUT US </a></li>
-              <li class="text-white"> <a href="#">CONTACT US</a></li>
-            </ul>
-          </div>
-      
-          <div class="w-full sm:w-1/2 lg:w-1/3 lg:absolute top-0 right-0 max-lg:hidden">
-            <div>
-              <img src="./assets/img/footerimage.png">
-            </div>
-      
-          </div>
-      
-           <div class="w-full sm:w-1/2 lg:w-1/2 mt-10 border-t border-white">
-            <h1 class="text-white text-2xl font-bold mt-10"> STAY IN TOUCH </h1>
-            <div>
-              <p class="text-white mt-3">
-                Sukh Sagar Valley, 34 lilly, Gwarighat Main Rd, Polipather, Jabalpur, Madhya Pradesh 482008 freshee.Freshee@gmail.com
-              </p>
-            </div>
-            <div class="mt-3">
-              <a href="#" class="text-white border-b border-white">freshee.Freshee@gmail.com</a>
-            </div>
-          </div>
-      
-          <div class="w-full  lg:w-1/2  mt-5 lg:ps-52">
-            <h1 class="text-white text-2xl font-bold">Exclusive offers straight in your inbox. </h1>
-            <p class="text-white mt-4">Join to get special offers $ free giveaways.</p>
-            <div class="grid grid-cols-2 gap-x-2 gap-y-2 mt-5">
-              <div class="text-white">Drop Your Mail</div>
-              <div >
-                <a href="#" class="text-white border-b border-white">122@example.com</a></div>
-            </div>
-          </div> 
+  <!--Footer conatct us starts-->
+  <footer
+    class="bg-[#6D3050] py-8  lg:py-16 flex flex-wrap  gap-y-5  bg-[url('../../assets/img/footerFrame.png')] bg-no-repeat bg-cover bg-center relative">
+    <div class="max-w-7xl mx-auto lg:px-8 px-6 flex flex-wrap w-full">
+
+      <div class="w-full sm:w-1/2 lg:w-1/3">
+        <h3 class="text-white text-2xl font-bold">MAIN MENU </h3>
+        <ul class=" flex flex-col gap-2 py-5">
+          <li class="text-white "><a href="/"></a>HOME</li>
+          <li class="text-white"> <a href="./about-us.html">ABOUT US</a></li>
+          <li class="text-white"> <a href="./contact-us.html">CONTACT US</a></li>
+
+        </ul>
+
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/3">
+        <h1 class="text-white text-2xl font-bold">FOOTER MENU </h1>
+        <ul class="flex flex-col gap-2 py-5 ">
+          <li class="text-white text-sm transition-all duration-300"><a href="./privacy-policy.html">Privacy &
+              Policy</a>
+          </li>
+          <li class="text-white text-sm transition-all duration-300"><a
+              href="./product-service-description.html">Product & Service Description</a>
+          </li>
+          <li class="text-white text-sm transition-all duration-300"><a href="./shipping-delivery-policy.html">Shipping
+              & Delivery Policy</a> </li>
+          <li class="text-white"> <a href="./terms-conditions.html">Terms & Conditions </a></li>
+          <li class="text-white"> <a href="./refund-and-cancellation.html">Refund and Cancellation Policy for Grocery
+              Orders</a></li>
+        </ul>
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/3 lg:absolute top-0 right-0 max-lg:hidden">
+        <div>
+          <img class="h-[300px] object-cover" src="./assets/img/footerimage.png">
         </div>
-      </footer>
+
+      </div>
+
+      <div class="w-full sm:w-1/2 lg:w-1/2 mt-10 border-t border-white">
+        <h1 class="text-white text-2xl font-bold mt-10"> STAY IN TOUCH </h1>
+        <div>
+          <p class="text-white mt-3">
+            Sukh Sagar Valley, 34 lilly, Gwarighat Main Rd, Polipather, Jabalpur, Madhya Pradesh 482008
+            freshee.adisha@gmail.com
+          </p>
+        </div>
+        <div class="mt-3">
+          <a href="#" class="text-white border-b border-white">freshee.adisha@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="w-full lg:w-1/2 lg:ps-52 mt-20">
+        <h1 class="text-white text-2xl font-bold">Exclusive offers straight in your inbox. </h1>
+        <p class="text-white mt-4">Join to get special offers $ free giveaways.</p>
+        <div class="flex *:whitespace-nowrap md:gap-5 items-center mt-4 w-full">
+          <p class="text-white text-[15px]">Drop your mail -</p>
+          <input type="email" placeholder="122@example.com"
+            class="w-full bg-transparent border-b focus:outline-none outline-none text-white !border-gray-100 focus:border-b caret-white">
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
-     <!-- mobile menu  -->
-     <input type="checkbox" class="peer/sideToggle hidden" name="sideToggle" id="sideToggle">
-     <label for="sideToggle" class="fixed inset-0 -z-[1011] backdrop-blur-xl bg-blue-500/10 overflow-hidden peer-checked/sideToggle:z-[1010] peer-checked/sideToggle:opacity-100 opacity-0 duration-100"></label>
-     <div class="fixed flex flex-col h-screen inset-y-0 right-0 z-[1011] w-full overflow-y-auto bg-white overflow-hidden backdrop-blur-lg select-none text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-black/10 peer-checked/sideToggle:translate-x-0 peer-checked/sideToggle:opacity-100 translate-x-full opacity-0 duration-300">
-      <div class="flex items-center justify-between border-b pb-3">
-          <div class="h-10 flex">
-              <a href="#" class="-ml-1.5 flex items-center">
-                <img src="./assets/img/logo.png" alt="logo" class="size-full ">
-              </a>
-  
+  <!-- mobile menu  -->
+  <input type="checkbox" class="peer/sideToggle hidden" name="sideToggle" id="sideToggle">
+  <label for="sideToggle"
+    class="fixed inset-0 -z-[1011] backdrop-blur-xl bg-blue-500/10 overflow-hidden peer-checked/sideToggle:z-[1010] peer-checked/sideToggle:opacity-100 opacity-0 duration-100"></label>
+  <div
+    class="fixed flex flex-col h-screen inset-y-0 right-0 z-[1011] w-full overflow-y-auto bg-white overflow-hidden backdrop-blur-lg select-none text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-black/10 peer-checked/sideToggle:translate-x-0 peer-checked/sideToggle:opacity-100 translate-x-full opacity-0 duration-300">
+    <div class="flex items-center justify-between border-b pb-3">
+      <div class="h-10 flex">
+        <a href="#" class="-ml-1.5 flex items-center">
+          <img src="./assets/img/logo.png" alt="logo" class="size-full ">
+        </a>
+
+      </div>
+      <label for="sideToggle" type="button" class="-m-2.5 rounded-md p-2.5 text-black">
+        <span class="sr-only">Close menu</span>
+        <svg class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </label>
+    </div>
+
+    <div class=" mt-1 grow flex flex-fill overflow-auto  ">
+      <div class=" divide-y divide-black/10 w-full">
+        <div class="space-y-2 py-6 w-full">
+          <div class="flex flex-col gap-5 items-center w-full">
+            <div class="flex flex-col w-full gap-y-3">
+              <a href="./index.html" class="text-sm font-medium text-theme10 ">Home</a>
+              <a href="./about-us.html" class="text-sm font-medium text-theme10 ">About Us</a>
+              <a href="./privacy-policy.html" class="text-sm font-medium text-theme10 ">Privacy & Policy</a>
+              <a href="./terms-conditions.html" class="text-sm font-medium text-theme10 "> Terms & Conditions</a>
+            </div>
           </div>
-          <label for="sideToggle" type="button" class="-m-2.5 rounded-md p-2.5 text-black">
-          <span class="sr-only">Close menu</span>
-          <svg class="h-6 w-6 text-black" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
-          </svg>
-          </label>
+        </div>
       </div>
-      
-      <div class=" mt-1 grow flex flex-fill overflow-auto  ">
-       <div class=" divide-y divide-black/10 w-full">
-           <div class="space-y-2 py-6 w-full">
-               <div class="flex flex-col gap-5 items-center w-full">
-                   <div class="flex flex-col w-full gap-y-3">
-                     <a href="./index.html" class="text-sm font-medium text-theme10 ">Home</a>
-                     <a href="./about-us.html" class="text-sm font-medium text-theme10 ">About Us</a>
-                     <a href="./privacy-policy.html" class="text-sm font-medium text-theme10 ">Privacy & Policy</a>           
-                     <a href="./terms-conditions.html" class="text-sm font-medium text-theme10 "> Terms & Conditions</a>
-                   </div>
-               </div>
-           </div>
-       </div>
-      </div>
-   
+    </div>
+
   </div>
 
-      <!-- end  -->
+  <!-- end  -->
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!-- header swiper -->
-<script>
-  var swiper = new Swiper(".headerSwiper", {
-    loop:true,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-</script>
+  <!-- header swiper -->
+  <script>
+    var swiper = new Swiper(".headerSwiper", {
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 
-<!-- home swiper -->
-<script>
-  var swiper = new Swiper(".heroSwiper", {
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
-</script>
+  <!-- home swiper -->
+  <script>
+    var swiper = new Swiper(".heroSwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
 
 </body>
+
 </html>
