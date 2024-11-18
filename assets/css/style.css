@@ -1333,6 +1333,10 @@ video {
   padding-top: 0.75rem;
 }
 
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1509,6 +1513,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\#2D2A6F\] {
+  --tw-text-opacity: 1;
+  color: rgb(45 42 111 / var(--tw-text-opacity, 1));
 }
 
 .underline {
